@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/cpanato
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.cpanato.de
+  * I am cpanato (https://keybase.io/cpanato) on keybase.
+  * I have a public key ASDYFHnVTns7ZcDUhvuu55dV7hiUqGR4YHX7yS4h1oRMXAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120c3e1b97cd3bbbfb2a274ed214557c3ff301fba4c2af83f49c0005a5fcba8ba3a0a",
+      "host": "keybase.io",
+      "kid": "0120d81479d54e7b3b65c0d486fbaee79755ee1894a864786075fbc92e21d6844c5c0a",
+      "uid": "aba0c0d18f7cd3543274c3448f80b619",
+      "username": "cpanato"
+    },
+    "merkle_root": {
+      "ctime": 1508576005,
+      "hash": "74ddb4e4229a875ec04420dd25d39fea08e42c52d786163e4189c7f869136cd8ca2d6b42985f4dff34748a6cacb04e1b7d35073cf843ac0868c32621e46dd897",
+      "hash_meta": "805e1a3ac1477c7ef889528782361a474e00774bcc72a34d84c25990dca26d06",
+      "seqno": 1611335
+    },
+    "service": {
+      "hostname": "www.cpanato.de",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.33"
+  },
+  "ctime": 1508576017,
+  "expire_in": 504576000,
+  "prev": "056aafb1878b137fa3c844b298321a87cb07d678ed9b7e518e1e84c056b41481",
+  "seqno": 27,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg2BR51U57O2XA1Ib7rueXVe4YlKhkeGB1+8kuIdaETFwKp3BheWxvYWTFA0Z7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwYzNlMWI5N2NkM2JiYmZiMmEyNzRlZDIxNDU1N2MzZmYzMDFmYmE0YzJhZjgzZjQ5YzAwMDVhNWZjYmE4YmEzYTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZDgxNDc5ZDU0ZTdiM2I2NWMwZDQ4NmZiYWVlNzk3NTVlZTE4OTRhODY0Nzg2MDc1ZmJjOTJlMjFkNjg0NGM1YzBhIiwidWlkIjoiYWJhMGMwZDE4ZjdjZDM1NDMyNzRjMzQ0OGY4MGI2MTkiLCJ1c2VybmFtZSI6ImNwYW5hdG8ifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MDg1NzYwMDUsImhhc2giOiI3NGRkYjRlNDIyOWE4NzVlYzA0NDIwZGQyNWQzOWZlYTA4ZTQyYzUyZDc4NjE2M2U0MTg5YzdmODY5MTM2Y2Q4Y2EyZDZiNDI5ODVmNGRmZjM0NzQ4YTZjYWNiMDRlMWI3ZDM1MDczY2Y4NDNhYzA4NjhjMzI2MjFlNDZkZDg5NyIsImhhc2hfbWV0YSI6IjgwNWUxYTNhYzE0NzdjN2VmODg5NTI4NzgyMzYxYTQ3NGUwMDc3NGJjYzcyYTM0ZDg0YzI1OTkwZGNhMjZkMDYiLCJzZXFubyI6MTYxMTMzNX0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJ3d3cuY3BhbmF0by5kZSIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjMzIn0sImN0aW1lIjoxNTA4NTc2MDE3LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwicHJldiI6IjA1NmFhZmIxODc4YjEzN2ZhM2M4NDRiMjk4MzIxYTg3Y2IwN2Q2NzhlZDliN2U1MThlMWU4NGMwNTZiNDE0ODEiLCJzZXFubyI6MjcsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAIqwW4LfU8lZYIHo6ID9yj1pf9+lipe3JAigPeJiB1PazehXu2UIO3RlRzXZWkXWI+v2p/pdtxlwB4c7lWm5MDKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIInHDTRc53ubMh6mdu61HjqDQaaGRjLUQEET3iwNRL1/o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/cpanato
+
+==================================================================
