@@ -1,3 +1,0 @@
-# Carlos Panato
-
-In progress....
