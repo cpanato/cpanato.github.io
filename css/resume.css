@@ -83,22 +83,6 @@ p.lead {
   color: #0598f2;
 }
 
-.dev-icons-2 {
-  font-size: 3rem;
-}
-
-.dev-icons-2 .list-inline-item i:hover {
-  color: #0598f2;
-}
-
-.dev-text {
-  font-size: 1rem;
-}
-
-.dev-text .list-inline-item i:hover {
-  color: #0598f2;
-}
-
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
