@@ -174,3 +174,13 @@ a {
 a:hover, a:focus, a:active {
   color: #0369a7;
 }
+
+.cert-img {
+  width: 48%;
+}
+
+/* resize images */
+.cert-img img {
+  width: 100%;
+  height: auto;
+}
