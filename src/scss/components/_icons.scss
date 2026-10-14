@@ -29,5 +29,25 @@
 
 // Styling for the development technology icons
 .dev-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 1.5rem;
     font-size: 3rem;
+    margin-bottom: 2rem;
+
+    .list-inline-item {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+        margin-right: 0;
+    }
+
+    .skill-label {
+        font-family: $font-family-base;
+        font-size: 0.875rem;
+        font-weight: 600;
+        line-height: 1.5;
+        text-align: center;
+    }
 }

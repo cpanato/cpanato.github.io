@@ -1,18 +1,19 @@
 {
-    "title": "Resume",
-    "name": "startbootstrap-resume",
+    "title": "Carlos Panato",
+    "name": "cpanato-website",
     "version": "7.0.6",
     "scripts": {
-        "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets",
-        "build:assets": "node scripts/build-assets.js",
-        "build:pug": "node scripts/build-pug.js",
-        "build:scripts": "node scripts/build-scripts.js",
-        "build:scss": "node scripts/build-scss.js",
-        "clean": "node scripts/clean.js",
+        "build": "node scripts/build.js",
+        "build:assets": "node scripts/build.js assets",
+        "build:pug": "node scripts/build.js pug",
+        "build:scripts": "node scripts/build.js scripts",
+        "build:scss": "node scripts/build.js scss",
+        "clean": "node scripts/build.js clean",
         "start": "npm run build && node scripts/start.js",
-        "start:debug": "npm run build && node scripts/start-debug.js"
+        "start:debug": "npm run build && node --inspect scripts/start.js",
+        "test": "npm run build && node --test"
     },
-    "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
+    "description": "Personal website of Carlos Panato, Software Engineer and SRE.",
     "keywords": [
         "css",
         "sass",
@@ -21,33 +22,29 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/theme/resume",
+    "homepage": "https://cpanato.dev/",
     "bugs": {
-        "url": "https://github.com/StartBootstrap/startbootstrap-resume/issues",
-        "email": "feedback@startbootstrap.com"
+        "url": "https://github.com/cpanato/cpanato.github.io/issues"
     },
     "license": "MIT",
     "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (https://davidmiller.io/)"
-    ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/StartBootstrap/startbootstrap-resume.git"
+        "url": "https://github.com/cpanato/cpanato.github.io.git"
     },
     "dependencies": {
         "bootstrap": "5.3.8"
     },
     "devDependencies": {
         "autoprefixer": "10.6.1",
-        "browser-sync": "3.0.4",
         "chokidar": "5.0.0",
-        "concurrently": "10.0.6",
-        "postcss": "8.5.29",
+        "postcss": "8.5.30",
         "prettier": "3.9.10",
         "pug": "3.0.4",
-        "sass": "1.105.1",
-        "shelljs": "0.10.0",
-        "upath": "3.0.8"
+        "sass": "1.105.1"
+    },
+    "private": true,
+    "engines": {
+        "node": ">=24 <25"
     }
 }

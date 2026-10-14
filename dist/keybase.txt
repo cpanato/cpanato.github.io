@@ -1,0 +1,57 @@
+==================================================================
+https://keybase.io/cpanato
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://cpanato.dev
+  * I am cpanato (https://keybase.io/cpanato) on keybase.
+  * I have a public key ASAroPqWnIY3cwFSq4qn1z7e-zioJ3DYVOT3cYk3xT2Vhwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120c3e1b97cd3bbbfb2a274ed214557c3ff301fba4c2af83f49c0005a5fcba8ba3a0a",
+      "host": "keybase.io",
+      "kid": "01202ba0fa969c8637730152ab8aa7d73edefb38a82770d854e4f7718937c53d95870a",
+      "uid": "aba0c0d18f7cd3543274c3448f80b619",
+      "username": "cpanato"
+    },
+    "merkle_root": {
+      "ctime": 1551429789,
+      "hash": "e63fff815eac3d1bdd839d7ddf5c85fed907449913f4a440fb124c538e74638c39ec3a2572c24dd20ff997cecd73e4d73f72d079873a68d19238fcce5fa68cde",
+      "hash_meta": "dce85808730a4018deb5570dff2e2c03ba28c99c3932cc664c0b5bbae7bd63af",
+      "seqno": 4854344
+    },
+    "service": {
+      "entropy": "tNeF/Nltfntb9D9rimzgAdCk",
+      "hostname": "cpanato.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.0.0"
+  },
+  "ctime": 1551429811,
+  "expire_in": 504576000,
+  "prev": "2e39de0cc1ab09a6b5d0b6f854799117982c3e0f99a738754c3d94366d6586df",
+  "seqno": 89,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgK6D6lpyGN3MBUquKp9c+3vs4qCdw2FTk93GJN8U9lYcKp3BheWxvYWTESpcCWcQgLjneDMGrCaa10Lb4VHmRF5gsPg+Zpzh1TD2UNm1lht/EIOlIHikY/JXvO3CsjBtkQocutmNmzwDfR6vqynUFEqqAAgHCo3NpZ8RAET6U9zfYfr0hO+AFXlpbwnvJob
+CH4QzOuhufH7Wb0Ns8V0WMZeGQt0ytelU6r6U8EdhdPS18q/9oDiTeNfHWBKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPNFLZiIyusVyHQx1RxMJ0lyYuM0ct8bJ5ZyRtwqPWOLo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/cpanato
+
+==================================================================

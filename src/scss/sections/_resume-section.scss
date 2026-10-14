@@ -30,3 +30,42 @@ section.resume-section {
         padding-bottom: 5rem;
     }
 }
+
+.credential-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr));
+    gap: 1rem;
+
+    > li {
+        display: flex;
+    }
+}
+
+.credential-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    width: 100%;
+    padding: 1.5rem;
+    border: 1px solid $gray-300;
+    border-radius: 0.75rem;
+    color: $gray-700;
+    text-decoration: none;
+
+    img {
+        object-fit: contain;
+    }
+
+    &:hover, &:focus-visible {
+        border-color: $primary;
+        color: $gray-800;
+        background-color: $gray-100;
+    }
+}
+
+.credential-verify {
+    display: block;
+    font-weight: 600;
+    text-decoration: underline;
+}

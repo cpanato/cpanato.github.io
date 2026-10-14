@@ -5,34 +5,43 @@ html(lang='en')
 
         meta(charset='utf-8')
         meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
-        meta(name='description', content='')
+        meta(name='description', content='Carlos Panato — Staff Software Engineer at Chainguard, Kubernetes SIG Release Tech Lead, OpenSSF TAC and CDF TOC member.')
         meta(name='author', content='cpanato')
 
-        title Carlos Panato
+        title Carlos Panato | Staff Software Engineer at Chainguard
+        link(rel='canonical', href='https://cpanato.dev/')
+        meta(property='og:title', content='Carlos Panato | Staff Software Engineer at Chainguard')
+        meta(property='og:description', content='Software supply chain security, cloud native technologies and open source.')
+        meta(property='og:type', content='website')
+        meta(property='og:url', content='https://cpanato.dev/')
+        meta(property='og:image', content='https://cpanato.dev/assets/img/profile.png')
 
         link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
 
         // Font Awesome icons (free version)
-        script(src='https://use.fontawesome.com/releases/v7.1.0/js/all.js', crossorigin='anonymous')
+        script(src='https://use.fontawesome.com/releases/v7.1.0/js/all.js', defer, crossorigin='anonymous')
 
         // Devicon icons
-        link(rel='stylesheet', type='text/css', href='https://cdn.jsdelivr.net/npm/devicon@latest/devicon.min.css')
+        link(rel='stylesheet', type='text/css', href='https://cdn.jsdelivr.net/npm/devicon@2.17.0/devicon.min.css')
 
         // Google fonts
-        link(href='https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700', rel='stylesheet', type='text/css')
-        link(href='https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i', rel='stylesheet', type='text/css')
+        link(rel='preconnect', href='https://fonts.googleapis.com')
+        link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin)
+        link(href='https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700&display=swap', rel='stylesheet', type='text/css')
+        link(href='https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i&display=swap', rel='stylesheet', type='text/css')
 
         // Core theme CSS (includes Bootstrap)
         link(href='css/styles.css', rel='stylesheet')
 
     body#page-top
+        a.visually-hidden-focusable.skip-link(href='#about') Skip to content
 
         // Navigation
-        nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
+        nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top(aria-label='Main navigation')
             a.navbar-brand.js-scroll-trigger(href='#page-top')
                 span.d-block.d-lg-none Carlos Panato
                 span.d-none.d-lg-block
-                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.png', alt='...')
+                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.png', alt='Carlos Panato')
             button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                 span.navbar-toggler-icon
             #navbarResponsive.collapse.navbar-collapse
@@ -41,97 +50,135 @@ html(lang='en')
                         a.nav-link.js-scroll-trigger(href='#about') About
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#skills') Skills
-                    //- li.nav-item
-                    //-     a.nav-link.js-scroll-trigger(href='#interests') Interests
-                    //- li.nav-item
-                    //-     a.nav-link.js-scroll-trigger(href='#certifications') Certifications
+                    li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#credentials') Credentials
 
         // Page Content
-        .container-fluid.p-0
+        main.container-fluid.p-0
 
             // About
-            section#about.resume-section
+            section#about.resume-section(tabindex='-1', aria-labelledby='about-heading')
                 .resume-section-content
-                    h1.mb-0
+                    h1#about-heading.mb-0
                         | Carlos
                         span.text-primary Panato
                     .subheading.mb-5
-                        | Software Engineer/SRE/Infra/Test
+                        | Staff Software Engineer at Chainguard
                     p.lead.mb-5
-                        | Software Engineer / SRE with experience both on-prem and public cloud. Development, Infrastructure, CI/CD and any automation is what I like.
+                        | I work on software supply chain security, cloud native systems and tools that help developers build and ship software with confidence.
                     p.lead.mb-5
-                        | Open Source Contributor. Tech Lead for Kubernetes Release Team (Sig-Release).
+                        | I am a Tech Lead for Kubernetes SIG Release, helping the community deliver reliable releases through release engineering and CI/CD. As a long-time open source contributor, I also work across Helm, Sigstore and the broader CNCF and OpenSSF communities, including artifact signing and software supply chain security.
+                    p.lead.mb-5
+                        | I serve on the
+                        = ' '
+                        a(href='https://openssf.org/about/tac/') OpenSSF Technical Advisory Council
+                        |  and the
+                        = ' '
+                        a(href='https://cd.foundation/about/toc/') Continuous Delivery Foundation Technical Oversight Committee
+                        | . I enjoy collaborating with communities to improve project maintenance, simplify releases and make open source software safer and easier to use.
                     .social-icons
-                        a.social-icon(href='https://www.linkedin.com/in/cpanato/', target='_blank')
-                            i.fab.fa-linkedin-in
-                        a.social-icon(href='https://github.com/cpanato', target='_blank')
-                            i.fab.fa-github
-                        a.social-icon(href='https://gitlab.com/cpanato', target='_blank')
-                            i.fab.fa-gitlab
-                        a.social-icon(href='https://bsky.app/profile/cpanato.dev', target='_blank')
-                            i.fab.fa-bluesky
+                        a.social-icon(href='https://www.linkedin.com/in/cpanato/', target='_blank', rel='noopener noreferrer', aria-label='LinkedIn')
+                            i.fab.fa-linkedin-in(aria-hidden='true')
+                        a.social-icon(href='https://github.com/cpanato', target='_blank', rel='noopener noreferrer', aria-label='GitHub')
+                            i.fab.fa-github(aria-hidden='true')
+                        a.social-icon(href='https://gitlab.com/cpanato', target='_blank', rel='noopener noreferrer', aria-label='GitLab')
+                            i.fab.fa-gitlab(aria-hidden='true')
+                        a.social-icon(href='https://bsky.app/profile/cpanato.dev', target='_blank', rel='noopener noreferrer', aria-label='Bluesky')
+                            i.fab.fa-bluesky(aria-hidden='true')
 
             hr.m-0
 
             // Skills
-            section#skills.resume-section
+            section#skills.resume-section(aria-labelledby='skills-heading')
                 .resume-section-content
-                    h2.mb-5 Skills
+                    h2#skills-heading.mb-5 Skills
                     .subheading.mb-3 Programming Languages & Tools
                     ul.list-inline.dev-icons
                         li.list-inline-item
-                            i.fab.fa-golang
+                            i.fab.fa-golang(aria-hidden='true')
+                            span.skill-label Go
                         li.list-inline-item
-                            i.fab.fa-git
+                            i.fab.fa-git(aria-hidden='true')
+                            span.skill-label Git
                         li.list-inline-item
-                            i.fab.fa-linux
+                            i.fab.fa-linux(aria-hidden='true')
+                            span.skill-label Linux
                         li.list-inline-item
-                            i.devicon-bash-plain
+                            i.devicon-bash-plain(aria-hidden='true')
+                            span.skill-label Bash
 
 
                     .subheading.mb-3 Containers & Cloud
                     ul.list-inline.dev-icons
                         li.list-inline-item
-                            i.devicon-amazonwebservices-plain
+                            i.devicon-amazonwebservices-plain(aria-hidden='true')
+                            span.skill-label AWS
                         li.list-inline-item
-                            i.devicon-azure-plain
+                            i.devicon-azure-plain(aria-hidden='true')
+                            span.skill-label Azure
                         li.list-inline-item
-                            i.devicon-googlecloud-plain
+                            i.devicon-googlecloud-plain(aria-hidden='true')
+                            span.skill-label Google Cloud
                         li.list-inline-item
-                            i.devicon-kubernetes-plain
+                            i.devicon-kubernetes-plain(aria-hidden='true')
+                            span.skill-label Kubernetes
                         li.list-inline-item
-                            i.devicon-docker-plain
+                            i.devicon-docker-plain(aria-hidden='true')
+                            span.skill-label Docker
+                        li.list-inline-item
+                            i.devicon-helm-original(aria-hidden='true')
+                            span.skill-label Helm
+                        li.list-inline-item
+                            i.devicon-prometheus-original(aria-hidden='true')
+                            span.skill-label Prometheus
+
+                    .subheading.mb-3 Security & Software Delivery
+                    ul.list-inline.dev-icons
+                        li.list-inline-item
+                            i.fas.fa-shield-halved(aria-hidden='true')
+                            span.skill-label Supply Chain Security
+                        li.list-inline-item
+                            i.fas.fa-file-signature(aria-hidden='true')
+                            span.skill-label Sigstore
+                        li.list-inline-item
+                            i.fas.fa-code-branch(aria-hidden='true')
+                            span.skill-label Releases & CI/CD
+                        li.list-inline-item
+                            i.devicon-githubactions-plain(aria-hidden='true')
+                            span.skill-label GitHub Actions
+                        li.list-inline-item
+                            i.fas.fa-clipboard-check(aria-hidden='true')
+                            span.skill-label OpenSSF Scorecard
+                        li.list-inline-item
+                            i.fas.fa-file-code(aria-hidden='true')
+                            abbr.skill-label(title='Software Bill of Materials') SBOM
 
             hr.m-0
 
-            // Interests
-            section#interests.resume-section
+            section#credentials.resume-section(aria-labelledby='credentials-heading')
                 .resume-section-content
-                    h2.mb-5 Interests
-                    p
-                        | TBA.
-                    p.mb-0
-                        | TBA.
-
-            hr.m-0
-
-            // Certifications
-            section#certifications.resume-section
-                .resume-section-content
-                    h2.mb-5 Certifications
-                    ul.fa-ul.mb-0
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Google Analytics Certified Developer
-                        li
-                            span.fa-li
-                                i.fas.fa-trophy.text-warning
-                            | Mobile Web Specialist - Google Certification
-                        li
+                    h2#credentials-heading.mb-4 Credentials & Recognition
+                    p.lead.mb-4 Selected certifications and community recognition for cloud native engineering, security and open source.
+                    each category in ['Certification', 'Community recognition']
+                        h3.h4.mb-3= category === 'Certification' ? 'Certifications' : 'Community recognition'
+                        ul.credential-grid.list-unstyled.mb-4
+                            each badge in credentials.badges.filter(badge => badge.category === category)
+                                li
+                                    a.credential-card(href=badge.url, target='_blank', rel='noopener noreferrer')
+                                        img(src=badge.image, alt='', width='96', height='96', loading='lazy', decoding='async')
+                                        .credential-details
+                                            h4.h5.mb-2= badge.name
+                                            p.small.mb-2= badge.issuer
+                                            if badge.expiresAt
+                                                p.small.mb-0
+                                                    | Valid until
+                                                    = ' '
+                                                    time(datetime=badge.expiresAt)= new Date(badge.expiresAt).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' })
+                                            span.credential-verify.small.mt-2 Verify on Credly ↗
+                    a.btn.btn-outline-primary(href=credentials.profileUrl, target='_blank', rel='noopener noreferrer') View all badges on Credly
 
         // Bootstrap core JS
-        script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
+        script(src='js/bootstrap.bundle.min.js', defer)
 
         // Core theme JS
-        script(src='js/scripts.js')
+        script(src='js/scripts.js', defer)
