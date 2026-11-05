@@ -36,12 +36,12 @@
         "bootstrap": "5.3.8"
     },
     "devDependencies": {
-        "autoprefixer": "10.6.1",
-        "chokidar": "5.0.0",
-        "postcss": "8.5.30",
+        "autoprefixer": "10.6.2",
+        "chokidar": "6.0.0",
+        "postcss": "8.5.32",
         "prettier": "3.9.10",
         "pug": "3.0.4",
-        "sass": "1.105.1"
+        "sass": "1.107.0"
     },
     "private": true,
     "engines": {
