@@ -33,7 +33,7 @@
         "url": "https://github.com/cpanato/cpanato.github.io.git"
     },
     "dependencies": {
-        "bootstrap": "5.3.8"
+        "bootstrap": "5.3.9"
     },
     "devDependencies": {
         "autoprefixer": "10.6.2",
