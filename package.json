@@ -36,9 +36,9 @@
         "bootstrap": "5.3.9"
     },
     "devDependencies": {
-        "autoprefixer": "10.6.2",
+        "autoprefixer": "10.7.0",
         "chokidar": "6.0.0",
-        "postcss": "8.5.32",
+        "postcss": "8.5.33",
         "prettier": "3.10.1",
         "pug": "3.0.4",
         "sass": "1.108.2"
